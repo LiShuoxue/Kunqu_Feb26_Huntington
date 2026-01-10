@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Feb22.dtd"?>
-<chapter name="連環計·小宴">
+<!--
+The percussion shorthand script for the Chinese opera 《連環計·小宴》
+for the performance on Feb 22, 2026 at Huntington Library.
 
-<!--01:37-->
-<g-proc>「王允上」</g-proc>（王允）今朝西阁开樽酒，那人<d/>怎解吾谋 <g-rit>「王允入座」</g-rit>
+Copyright (c) 2026 Kunqu Opera Society USA. All rights reserved.
+
+References:
+    [1] https://www.bilibili.com/video/BV1hx411a7e9
+        The reference of the time marks, if not otherwise noted
+    [2] https://www.bilibili.com/video/BV1u55tzmEaA
+        The reference of the additional dance that Ref. 1 does not include.
+-->
+
+<chapter name="連環計·小宴">
+<g-proc t="01:37">「王允上」</g-proc>（王允）今朝西阁开樽酒，那人<d/>怎解吾谋 <g-rit>「王允入座」</g-rit>
 风花闹引迷魂阵，锦绣妆成陷马关。上智能开金串锁，搜神难解玉连环。<g2>「王允坐」</g2>
 老夫王允。昨闻吕布在阵上失了金冠，我命巧匠嵌成一顶送去，他说今日前来谢我。
 吉利过来！（院子）有！（王）但等酒酣之际，连报数次，说西府差人请我议事。温侯到时即忙通报。（院子）晓得。
 
-<!-- FIXME How to concat the rhythms?-->
+<!-- FIXME How to imply Cccc... and the fast G-proc-->
 <G-proc t="03:39">「四军士上」</G-proc> <G4>「吕布上」</G4>
-<G-proc head="Cccc...">「四军士绕场一周」</G-proc> <G-rit end="qC">「吕布亮相」</G-rit>
+<G-proc head="Cccc..." v="fast">「四军士绕场一周」</G-proc> <G-rit end="qC">「吕布亮相」</G-rit>
 
 （吕布）柳阴夜寂悬边柝<g2/>，正<G1 s='D~'>朝廷</G1>无事之秋 <dd v="mid"/>
 （军士）有人么！
 <music name="大开门">「王允吕布问候，进门后曲牌收」</music>
-（吕）大人请上，待小将吕布拜谢。（王）老夫也有一拜。（吕）蒙赐金冠，壮我雄威，特此造谢！（王）微物拜人，何劳相谢。请！<g2>「入座」</g2> 近闻曹、刘兵散，乃温侯坚守之妙策也！（吕）哟，些小微功，何足挂齿？（王）且逢凯旋，老夫聊备小酌，与温侯洗尘。（吕）多谢大人（王）看酒～
+（吕）大人请上，待小将吕布拜谢。（王）老夫也有一拜。（吕）蒙赐金冠，壮我雄威，特此造谢！
+（王）微物拜人，何劳相谢。请！<g2>「入座」</g2>
+近闻曹、刘兵散，乃温侯坚守之妙策也！（吕）哟，些小微功，何足挂齿？
+（王）且逢凯旋，老夫聊备小酌，与温侯洗尘。（吕）多谢大人（王）看酒～
 <music name="傍妆台">
     x<Z/> ,35 x6.1 ,65 x3 ,35 x2 ,16 x1.2 ,121 x 6 ,123 x5.6 ,5 x 65 ,35 2 x3 ,21 x 61 ,65 3 x5.6 ,1 x21 ,65 (rit.)x6 -
 （吕）吓，大人「曲牌收」
@@ -52,7 +65,7 @@
 <g1 s='d..'>「翠环禀报，貂蟬轉身」</g1> <g1 s="g. mute">「貂蝉移步」</g1>（貂）參見爹爹！（王）吓儿吓！温侯在此。吓，小女求见。（吕）是是是，吓，小姐！（貂蝉）温侯。<g1>「王允咳嗽，阻拦二人亲近」</g1>（王）儿吓，温侯闻你善于音律，况且温侯是个识者，来来来，奉敬温侯一曲一杯。（吕）不敢（貂）遵命！
 
 <song name="前腔">
-    x<Z/> 捧 ,霞觞 x琥珀 , x光 ,浮 x 敲 ,象板 x宫商 , <g1>x迭 , x奏</g1> ,洞 x天 ,深处 x同欢 , x笑直 ,饮到 x月 ,明 x 时 (rit.), x候 <g1/>
+    x<Z/> 捧 ,霞觞 x琥珀 , x光 ,浮 x 敲 ,象板 x宫商 , <g1>「貂蝉吕布对视」x迭 , x奏</g1> ,洞 x天 ,深处 x同欢 , x笑直 ,饮到 x月 ,明 x 时 (rit.), x候 <g1/>
 </song>
 
 「院子上」（院子）启爷：西府差人请爷议事。（王）<g1 s='Dy T'>哆！</g1>小姐在此，只管乱闯！（翠环）呀呸！勿要说小姐拉里，就是奴家拉里么，也勿该应！（院子）你吓，尚早！（翠环）阿要死介！<g5 v='mid'>「院子下，翠环回身服侍小姐」</g5>

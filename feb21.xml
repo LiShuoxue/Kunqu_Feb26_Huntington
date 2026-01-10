@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Feb21.dtd"?>
+<!--
+The percussion shorthand script for the Chinese opera 《西厢记·跳墙着棋》
+for the performance on Feb 21, 2026 at Huntington Library.
+
+Copyright (c) 2026 Kunqu Opera Society USA. All rights reserved.
+
+References:
+    [1] https://www.bilibili.com/video/BV17w411d7te
+        The reference of the time marks, if not otherwise noted
+    [2] https://www.bilibili.com/video/BV1XW411h7Rr
+        The reference of the truncation for the performance on Feb 7, 2026 at USC
+-->
+
 <chapter name="西厢记·跳墙着棋">
 <g-proc v="slow"/> <music>... x四四 ,上四 x合上 ,四</music>
 <g-proc v="slow"/> <g3>「贴上」</g3> <g1 s='d..'>「红娘回头看笑介」</g1>
@@ -8,7 +20,7 @@
 <!--03:56-->（貼）小姐，焚香煮茗俱已停當，請小姐玩月去。（旦）去吧。
  
 <song name="駐馬聽" t="04:15">
-    <dd v="slow"/> [S]不近喧嘩 x<Z/> , ,嫩 ,綠 x池 ,塘 , , x藏 , ,睡 , x鴨,,, x自 ,然 , , x幽 , ,雅 , x ,新 , ,柳 x拖 , ,黄 , x暗 ,隱 ,棲 , x鴉 , ,金 ,蓮 x蹴 , ,損 ,牡 x , ,丹 , x芽 ,玉 ,簪 ,兒 x抓 , ,住 ,荼 x , ,蘼 , x架 , ,<y t="05:38"/> ,<T/> x苔 ,徑 ,泥 , x滑 ,露 ,珠兒 , x濕 , ,透 , x淩 ,波 , , x襪【前腔】 ,你看 ,日落 , x窗 , ,紗 , x ,兩 , ,下 x含 ,情 , , x对 , ,月 , x華,,, x風 ,光 , , x瀟 , ,灑 , x ,雨 , ,約 x雲 , ,期 , x楚 ,臺 ,巫 , x峽 , ,夕 ,陽 x影 , ,裡 ,噪 x , ,歸 , x鴉 兩 ,下裡 ,捱 ,一 x刻 , ,如 ,過 x , ,一 , x夏,,, x風 ,送 ,飛 , x花 , ,紛 ,紛 x亂 ,撲 , , x香 ,階 , , (rit.) x下 <g1 s='d..' t="07:54"/>
+    <dd v="slow"/> [S]不近喧嘩 x<Z/> , ,嫩 ,綠 x池 ,塘 , , x藏 , ,睡 , x鴨,,, x自 ,然 , , x幽 , ,雅 , x ,新 , ,柳 x拖 , ,黄 , x暗 ,隱 ,棲 , x鴉 , ,金 ,蓮 x蹴 , ,損 ,牡 x , ,丹 , x芽 ,玉 ,簪 ,兒 x抓 , ,住 ,荼 x , ,蘼 , x架 , ,<y t="05:38"/> 「锣打在小姐滑了一跤的时候」,<T/> x苔 ,徑 ,泥 , x滑 ,露 ,珠兒 , x濕 , ,透 , x淩 ,波 , , x襪【前腔】 ,你看 ,日落 , x窗 , ,紗 , x ,兩 , ,下 x含 ,情 , , x对 , ,月 , x華,,, x風 ,光 , , x瀟 , ,灑 , x ,雨 , ,約 x雲 , ,期 , x楚 ,臺 ,巫 , x峽 , ,夕 ,陽 x影 , ,裡 ,噪 x , ,歸 , x鴉 兩 ,下裡 ,捱 ,一 x刻 , ,如 ,過 x , ,一 , x夏,,, x風 ,送 ,飛 , x花 , ,紛 ,紛 x亂 ,撲 , , x香 ,階 , , (rit.) x下 <g1 s='d..' t="07:54"/>
 </song>
  
  (貼)啊小姐，我去看看角門可曾閉上，恐有人窺探我們，不大穩便。(旦)去去就來 (貼)是。<g5 v='mid'>「二人转」</g5> <g1 s='d..'>那張先生也該來了吓</g1>
@@ -27,7 +39,14 @@
 
 (貼)小姐，棋枰有<g1>了</g1>。
 
-<!--17:28--> (旦)紅娘坐了(貼)紅娘不敢坐(旦)坐了好下(貼)紅娘怎好與小姐相對。待我去尋一個人來，與小姐相對一局如何?(旦)胡说(貼)不是吖，恐怕難遣小姐的興呀!（旦）红娘啊！
+<!--17:28--> (旦)紅娘坐了(貼)紅娘不敢坐(旦)坐了好下
+
+<!--
+NOTE For Feb 7th:
+We substitute the following song to “小开门” (13:15 of [2])?
+-->
+
+(貼)紅娘怎好與小姐相對。待我去尋一個人來，與小姐相對一局如何?(旦)胡说(貼)不是吖，恐怕難遣小姐的興呀!（旦）红娘啊！
 <song name="玉芙蓉" t="18:00">
     <dd v='slow'/> [S]棋中 x有 , ,密 , x機,,,x,,, x輸 ,了 , , x難 , ,迴 , x避,,, x謹,,, x關,,, x防,,, x却 , x被 ,x,,, x那,,, x人,,,x, ,先,x,,, x覷,,, x只 , ,圖 , x兩,,, x下, x相,x,,, x黏,,, x住, ,怎 , x當 ,得 , , x他,,, x人,, ,<D/> x刼 , ,處,x,,, (rit.) x提 <g1 v='fast' t="20:00"/>
 </song>
