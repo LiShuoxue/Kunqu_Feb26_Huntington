@@ -1,14 +1,14 @@
 # 底鼓指南
 
 
-```sh
+```
 export `xCc..`=`xB>Uh..`
 export `T-`=`rr-`
 ```
 
 吕布出场的成套底鼓打法（回头圆场-四击头-回头长尖-归位）
 
-``` python
+```
 D~R R R rrd- xCc.. LxR.. # 回头
 xB L,R xB L,R xL L,R xL,R LxRR,LRxLRLR... # 圆场
 xL>luxxRT- xD,xD,RLxRL,Rr- # 四击头
@@ -18,13 +18,13 @@ xL>luxxRT- xD D~ xRhR LxR- xrr xD- # 归位
 ```
 
 不同的一锣：
-``` python
+```
 D~S H xD        # 嘟～仓
 D~ xDh xRh xD   # 嘟～崩登仓
 ```
 
 唢呐尾声转圆场打下：
-``` python
+```
 xLR, xL,R xLR,LR xrr,R xLR,LRx, RT- xCc.. <G-proc/>
 ```
 
