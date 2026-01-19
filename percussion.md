@@ -14,7 +14,7 @@ xB L,R xB L,R xL L,R xL,R LxRR,LRxLRLR... # 圆场
 xL>luxxRT- xD,xD,RLxRL,Rr- # 四击头
 xDD~~~~R R R rrd- xCc.. # 回头
 xD,D~... # 长尖
-xL>luxxRT- xD D~ xRhR LxR- xrr xD- # 归位
+xL>luxxRT- xD D~xR>HR LxR- xrr xD- # 归位
 ```
 
 不同的一锣：
