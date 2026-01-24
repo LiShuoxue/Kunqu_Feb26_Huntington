@@ -48,7 +48,6 @@ Here we show how to denote the pattern before the *Precludio*:
 
 ## Common Patterns
 
-
 ### g1
 ```
 [2] xr ,r xr>l-         # (41.1)
@@ -137,7 +136,9 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
 ### Martello (Mart)
 ```
 [S] Z~~ ,DZdrp xD>r,Z~~ xD>r,Z~~ ... xD>rh,D>rh.. xD,Dd,dd,D xDD,DD,DDD0 xD-
+           T    C   7~~  T   7~~ ...  C 7  T 7     C 7  T7 T  C  Tc y T   C-
 [L] ,p0 xDZ,DZxDZ,DZ... xD,DDxDD,D xDDDD,DD00 xDz00,Z
+      T  C7 T7 C7 T7...  C 7  T7 T  C TC yTC    PT  C
 [P] D.D xy,y xDz,DzxDz,Dz... x0D,Zd xDD,D xDD,DDxDD,D
               C7 T7 C7 T7...  C7 T   q  C  C  lC yT C
 [P]                      ... xDD,Z xD
@@ -149,12 +150,12 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
 ### Estrazione (Estr)
 ```
 xDD,DD xyD,yDDD xD,DDxDD,DD... 
-      ... xDD,DD xy D,y  xdd,0d xD-
-                          lT yl  T-
-      ... xDD,DD xy D,y  xdr,D-
-                          l  T
+      ... xDD,DDxyD,y  xdd,0d xD-
+                        lT yl  T-
+      ... xDD,DDxyD,y  xdrm,D-
+                        l   T-
       ... xDD,DD xdmD,dM xD-
-                          T
+                          T-
 ```
 
 ### Fenice (Fen)
@@ -207,6 +208,13 @@ xdb,0D~ xdbp,0D~ xdbp,0D~ xR,L xRL,db xD-
 R{rr-} LxR D~xr>hR LxR- xD-
 ```
 
+### Ritirata del Gong (RG)
+
+```
+${G-Proc} xLRLR xLRLR xLR xLR xLR xLR... LxR,R,R,D~xR,R,R,R LxR,RxR,RxR,R...xR,rrxR,R
+           C c   C c   Cc  Tc  CT  cT...   C T c    C T c T   C   T   T  ... T    T   T-lT-
+```
+
 ### Scattato (Scat)
 ```
 [1] xd.d,yD,y0 xdrm,D xdrm,D ... xdrm,DDxDD,DD xD-
@@ -219,7 +227,8 @@ R{rr-} LxR D~xr>hR LxR- xD-
 
 ### Vento Prestissimo (VPP)
 ```
-xD xDD~ xR xL xRxLxR xRLxR xRLxRLxR xD~xRLxR ...  xD,rr xD
+>bhxD xLR- xR xL xRxLxR xRLxR xRLxRLxR  xLRx0LxR xD~xRLxR ...  xD,rr xD-
+         T  C  c  C c Cc Cc Cc Cc Cc Cc  Cc Cc Cc Cc Cc Cc...   C c   C-
 ```
 
 ### Vocativo (Voc)
@@ -232,4 +241,18 @@ Usage:
 ${G-Voc} 'Ah!' ${G5}|${G4[p]}
 ${G-Voc} 'Ah!' ${G-Voc} 'Ah!' ${G5}|${G3[p]}
 ${G-Voc} 'Ah!' ${G4[p]} 'Uh!' ${G3[p]} 'Ah..AHHHH!' ${G-Fret}|${G-Proc}|...
+```
+
+## Patterns within the Music
+
+### Fundamental patterns
+
+```
+D.d yD dd D0      (Z)
+yd DD D0yD y0D-   (D)
+dD d DDyD y0D-    (D)
+yDD0 DD DDyD y0D- (D)
+yDy0 DD DDyD y0D- (D)
+Z DD dd D0 (Z)
+D0yD y0D- dd D0 (Z)
 ```
