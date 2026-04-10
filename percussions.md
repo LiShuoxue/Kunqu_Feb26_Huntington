@@ -96,6 +96,7 @@ Here are the notes of the percussion:
 | 撤锣         | Ritirata del Gong    | Rg           |
 | 归位         | Ritorno              | Rt           |
 | 闪锤         | Scattato             | S            |
+| 扫头         | Scrematura           | Sm           |
 | 收头         | Termine              | Tm           |
 | 纽丝         | Seta Ri**t**orta     | Tt           |
 | 叫头         | Vocativo             | Vc           |
@@ -357,43 +358,41 @@ GmPr4D~GmPtRt :2<g>.D~1:
 4GmPtGmPtD~14 FrD~14 FrD~14 FrD~1D~14 PrFrCs
 ```
 
+### 《战太平》第13场
+> `(M)` 花云 `(F)` 孙氏 `Sm<P>` 小扫头
+```
+I[I]:GmPr(M)4[M]:*6~1~1~S[R].:Tt<P>[S(F)]:1:1D~:1                       # “叹英雄失势入罗网”
+Tt[S(M)].1.:1.qC:FrVc<3>DR1N[P]:*8Sm<P>FrVc<3>DR1Tt[S].2Pl:Tt:D~GmPr    # “这一足踏在你地埃尘”
+```
+
 ### 《洪羊洞》末折
-
 > `(6)`杨延昭  `(8)`赵德芳 `(F)`佘太君 `(f)`柴夫人
-
+> `Co<x>` 只打一番便收的乱锤
 ```
 Rg(6)~Ab[L]xxxCxTxxxx:*3Fg<c>E<g>Ab[M]:E[R(8)]:E::E:          # “叹杨家投宋主心血用尽”
 I[S(6)]:1:1:1:1.Pl:1Co<x>F[S]:1::F[S(8)]:1:1:1:F[S(6)]:1:Cs   # “适才间在郊外闲游散闷”
-...1(8)~Vc<g>(6)~xZdD[LA]:*12[M(8)]:*4 M<S>[S(F)]:1(f):       # “自那日朝罢归身染重病”
+~1(8)~Vc<g>(6)~xZdD[LA]:*12[M(8)]:*4 M[S(F)]:1(f):            # “自那日朝罢归身染重病”
 I[S(6)]:1:1..D~:DRR1 CoF.D~:1:....qC:Tt:1:1.Pl:TtCoF:1::      # "@8"
 Tt.Pl:1 Co 0D~qTC0D~qTC DRC D~ F:F::                          # “霎时间腹内痛心血上涌”
 F:CoF:1.Pl:1 Co 0D~qTC0D~qTC DRC D~ F1..,D~:1 Fin.            # “这一旁站的是猛将岳胜”
 ```
 
 ### 《穆桂英挂帅》“一家人闻边报”
-
-
 ```
-Tt[S]:1:1:1 9OcACcAZAOcACcZAOc ~F[S]..1:1    # “一家人闻边报”
-Vp N[A]:*7.DD:                               # “猛听得金鼓响”
-Tt[S]:1:F:Vp F[S].1.:14Vp                    # “我不挂帅谁挂帅”
+Tt[S]:1:1:1 9OcACcAZAOcACcZAOc ~F[S]..1:1    # “一家人闻边报雄心振奋”
+Vp N[A]:*7.DD: Tt[S]:1:F:Vp F[S].1.:14Vp     # “猛听得金鼓响画角声震”
 ```
-
 Details of connecting the patterns:
-
 `OcA`:
-
 ```
 .... r r (cresc.)b  D.lRL 0RRR LRLR...
 qTTT qTTT qTTT qTTT C.0lC 0c0T CcCc...
 ```
-
 `ACcA`:
 ```
    D~LR 0b<hRL RLRL RLRR LRLR ...
 .. CcCc Cc0 T  qC0c qC0c CcCc ...
 ```
-
 `ACcZ`:
 ```
    .... R0B  b<hLRL RLRL RLRR L R  D.lRL 0D0R LR0D0R ...
