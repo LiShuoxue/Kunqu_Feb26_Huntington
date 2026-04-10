@@ -129,7 +129,7 @@ RDyD~qClCyTCclCyT CcCc...
 8-D~qcCcTcC7TCTCyTC-
 ```
 
-### g1
+### 1<g>
 
 ```
 [2] xr ,r xr>l-         # (41.1)
@@ -145,7 +145,7 @@ RDyD~qClCyTCclCyT CcCc...
 [1] ${G1}S xdM xdM xdM...  # (50)
 ```
 
-### G1 
+### 1<G>
 ```
 xdd RxL-          # (41.2)
 xdd xD{r>l}       # (41.2)
@@ -160,38 +160,37 @@ xD~~xRRRR xD      # (43.3)
 
 xD~~LxR,RR xr>l   # (44)
 
-[1] xZh xZ xD     # (48.2)
+<1> xZh xZ xD     # (48.2)
 ```
 
 ### 2
 ```
-[1g]  xdr,y xp,   xD # (52.1.1)
+<1g>  xdr,y xp,   xD # (52.1.1)
              l     T
-[1g]     ,p xD, D xD # (52.1.2)
+<1g>     ,p xD, D xD # (52.1.2)
              T     T
-[2G] xRrLl, xd,   xD # (52.2)
+<2G> xRrLl, xd,   xD # (52.2)
           T  q     C
-[1G] xYdr,Y xFx xDx  # (52.2)
+<1G> xYdr,Y xFx xDx  # (52.2)
 ```
 
-### G3
+### 3<G>
 ```
-[2] xRL,rp xR xR xR
-[2p] ,R{rr} xD xR xD
+xRL,rp xR xR xR
 ```
 
-### G4
+### 4
 ```
 R{d>bs} xD,>d xD,RL xRL,R xD-
 ```
 
-### G4[p]
+### 4<p>
 ```
 xD   xRL  xR xL xR xD   # (57.2.1)
 xD>h xRD~ xR xL xR xD   # (57.2.2)
 ```
 
-### G5
+### 5<G>
 ```
 R{rr-} xr,R xr,R LxR-
 ```
@@ -209,10 +208,11 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
       T   C c  C c    qC-    C-
 ```
 
-### Cessazione (Cs) (alias: G3[p])
+### Cessazione (Cs) (alias: G3<p>)
 ```
-[2G] R{rr-} xD ,R xD-
-[1G] D{dr-} xD ,D.D xD-
+<2G> R{rr-} xD ,R xD-
+<1G> D{dr-} xD ,D.D xD-
+<1g> DY xD ,D xD-
 ```
 
 ### Martello (M)
@@ -229,7 +229,7 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
                               C7 T  q c   C lc yT  C  lc yT  C
 ```
 
-### Estrazione (Et)
+### Estrazione (E)
 ```
 xDD,DD xyD,yDDD xD,DDxDD,DD... 
       ... xDD,DDxyD,y  xdd,0d xD-
@@ -240,7 +240,7 @@ xDD,DD xyD,yDDD xD,DDxDD,DD...
                           T-
 ```
 
-### Fenice (Fe)
+### Fenice (F)
 ```
 [1] xD.DxDD xdmDxdmD xYxY xdxD xDDxDD xDDxD +[A/R]
 [1] x0D,Ydrp xD,z0dd xDD,D xDD,xDD xD ,D +[S]
@@ -256,7 +256,7 @@ xDD,DD xYD>r,YDD xYD>r,YDD xYD>r,YDD xDD,DD xDD,DD ... xYD,Y xD-
 [G]           T   qC    c   qC    c   Cc Cc  Cc Cc ...  Cc C  C-
 ```
 
-### Gong di uno Martello (GM)
+### Gong di uno Martello (Gm)
 ```
 D~R R R rrd- xb>Uh.. LxR..     ( D~~~~~~~~~~~~~~~~~~...)
         T-    Ccccc..  Tcccc.. (xCccc,TcccxCccc,Tccc...)
@@ -290,7 +290,7 @@ xdb,0D~ xdbp,0D~ xdbp,0D~ xR,L xRL,db xD-
 R{rr-} LxR D~xr>hR LxR- xD-
 ```
 
-### Ritirata del Gong (RG)
+### Ritirata del Gong (Rg)
 
 ```
 ${G-Proc} xLRLR xLRLR xLR xLR xLR xLB xLRLR xLRLR... LxR,R,R,D~xR,R,R,R LxR,RxR,RxR,R...xR,rrxR,R
@@ -318,16 +318,16 @@ ${G-Proc} xLRLR xLRLR xLR xLR xLR xLB xLRLR xLRLR... LxR,R,R,D~xR,R,R,R LxR,RxR,
 [G] ,RL>lp- xdm,D xdM,dMxdM...
         T    q  C  T  T  T ...
 ```
-Usage:
+High-level usage:
 ```
-${G-Vc} ... ${G5}|${G4[p]}
-${G-Vc} ... ${G-Voc} ... ${G5}|${G-Ces}
-${G-Vc} ... ${G4[p]} ... ${G-Cs} ... ${G-Fret}|${G-Proc}|?
+Vc~5|4<p>
+Vc~Vc~5|Cs
+Vc~4<p>~Cs~Fr|Pr
 ```
 
 ### Zampa di Cavallo (Z)
 ```
-D~LR0L0R LR0B0R LR0B0R ...
+D~LR0L0R LR0D0R LR0D0R ...
     0c0T C0Tc0T C0Tc0T ...
 ```
 
