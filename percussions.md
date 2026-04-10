@@ -1,6 +1,8 @@
 # Instructions of Peking Opera Percussions
 
-## Basic Notations
+## Notations
+
+### Strokes
 
 | Shorthand       | Description                                              |
 | --------------- | -------------------------------------------------------- |
@@ -20,35 +22,115 @@
 
 The shorthands below should be used after a stroke label to indicate
 
-| Shorthand       | Description                                                         |
-| --------------- | ------------------------------------------------------------------- |
-| `>`             | The drumstick moves from center towards somewhere                   |
-| `<`             | The drumstick moves from somewhere towards the center               |
-| `l` `r` `u` `d` | Four directions on the drum surface                                 |
-| `H` `h`         | Above the drum surface                                              |
-| `S` `s`         | Pressing on the drum surface                                        |
+| Shorthand       | Description                                                  |
+| --------------- | ------------------------------------------------------------ |
+| `>?`            | The drumstick moves **from center towards somewhere**        |
+| `<?`            | The drumstick moves **from somewhere towards the center**    |
+| `l` `r` `u` `d` | Four directions on the drum surface                          |
+| `H` `h`         | Above the drum surface                                       |
+| `S` `s`         | Pressing on the drum surface                                 |
 | `P` `p`         | Pointing on the drum surface, upper/lower case indicate the degree. |
-| `M`             | Mute stroke but still hit the drum surface                          |
-| `m`             | Mute stroke without hitting the drum surface.                       |
+| `M`             | Mute stroke but still hit the drum surface                   |
+| `m`             | Mute stroke without hitting the drum surface.                |
 
-The additional notes:
+Here are the notes of the percussion:
 
 1. About `><`:
-   1. If `><` are used after capitalized strokes, it indicates that we first hit the drum surface, then move the drumstick accordingly.
-   2. If `><` are used after lower-case strokes, it indicates that we do not hit the drum surface but only move the drumstck.
-   3. If `><` is not used between stroke label and the direction label, it indicates that we just hit the drum surface at the specified direction.
-2. About the pointing label `Pp`: If a direction label occurs, `Pp` should be after it. If `>` occurs, it means that we first move the stick to the direction, then point on that direction; if not, we just move the stick end to that direction, but still point on the center.
+   1. If `><` are used **after capitalized strokes**, it indicates that we first hit the drum surface, then move the drumstick accordingly.
+   2. If `><` are used **after lower-case strokes**, it indicates that we do not hit the drum surface but only move the drumstck.
+   3. If `><` is **not** used between stroke label and the direction label, it indicates that we just hit the drum surface at the specified direction.
+2. About the pointing label `Pp`:
+   1. If a direction label occurs, `Pp` should be after it.
+   2. If `>` occurs, it means that we first move the stick to the direction, then point on that direction;
+   3. If `>` does not occur, we just move the stick end to that direction, but still point on the center.
 
-Here we show how to denote the pattern before the *Precludio*:
+
+### Aria
+
+| Chinese name | Italian Name | Abbreviation |
+| ------------ | ------------ | ------------ |
+| 导板         | Precludio    | I            |
+| 回龙         |              | H            |
+| 慢板         | Lento        | L            |
+| 原板         | Moderato     | M            |
+| 二六         |              | 2            |
+| 流水         | Allegro      | A            |
+| 快板         | Presto       | P            |
+| 摇板         | Rubato       | R            |
+| 散板         | Senza Misura | S            |
+| 南梆子       |              | N            |
+| 高拨子       |              | G            |
+| 四平调       |              | 4            |
+| 吹腔         | Fiato        | F            |
+
+
+### Percussion Patterns
+
+| Chinese name | Italian Name         | Abbreviation |
+| ------------ | -------------------- | ------------ |
+| 一锣         |                      | 1            |
+| 二锣         |                      | 2            |
+| 三锣         |                      | 3            |
+| 四击头       |                      | 4            |
+| 五击头       |                      | 5            |
+| 九锤半       |                      | 9            |
+| 流水         | Allegro              | A            |
+| 夺头         | Ablativo             | Ab           |
+| 搜场点       | Cerca                | Cc           |
+| 乱锤         | Caos                 | Co           |
+| 帽子头       | Cappello             | Cp           |
+| 住头         | Cessazione           | Cs           |
+| 抽头         | Estrazione           | E            |
+| 凤点头       | Fenice               | F            |
+| 搓锤         | Sfregatura           | Fg           |
+| 切住         | Fermata              | Fm           |
+| 冲头         | Fretta               | Fr           |
+| 一锤锣/回头  | Gong di uno Martello | Gm           |
+| 导板头       | Precludio            | I            |
+| 长锤         | Martello Lungo       | M            |
+| 紧锤         | Nostalgia            | N            |
+| 阴锣         | Gong Oscuro          | Oc           |
+| 哭头         | Ploro                | Pl           |
+| 圆场         | Processione          | Pr           |
+| 长尖/长丝头  | Punta Lunga          | Pt           |
+| 撤锣         | Ritirata del Gong    | Rg           |
+| 归位         | Ritorno              | Rt           |
+| 闪锤         | Scattato             | S            |
+| 收头         | Termine              | Tm           |
+| 纽丝         | Seta Ri**t**orta     | Tt           |
+| 叫头         | Vocativo             | Vc           |
+| 急急风       | Vento Prestissimo    | Vp           |
+| 马腿         | Zampa di Cavallo     | Z            |
+
+
+### High-level Percussion Sheets
+
+| Notation | Description                         |
+| -------- | ----------------------------------- |
+| `[]`     | Aria                                |
+| `<>`     | Description of the percussion token |
+| `()`     | Character                           |
+| `:`      | End of sentence                     |
+| `.`      | Breakdown of the sentence            |
+| `~`      | Words                               |
+
+
+## Details of the Percussion Patterns
+
+### 9
 
 ```
-,R{rr-} LxR D~xr>hR LxR- LxR- xR.R
+RDyD~qClCyTCclCyT CcCc... 
 ```
 
+### Cerca (Cc)
 
-## Common Patterns
+```
+8-D~qcCcTcC7TCTCyTC-
+```
 
 ### g1
+
 ```
 [2] xr ,r xr>l-         # (41.1)
 [1] xZ ,d xd>l-         # (41.1)
@@ -114,12 +196,12 @@ xD>h xRD~ xR xL xR xD   # (57.2.2)
 R{rr-} xr,R xr,R LxR-
 ```
 
-### Ablativo (Abl)
+### Ablativo (Ab)
 ```
 xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
 ```
 
-### Cappello (Cap)
+### Cappello (Cp)
 ```
 [g] p-xDxDxD xDDxDDxD0yDxD
 			 T T T  T  T  T    T
@@ -127,13 +209,13 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
       T   C c  C c    qC-    C-
 ```
 
-### Cessazione (Ces)
+### Cessazione (Cs) (alias: G3[p])
 ```
 [2G] R{rr-} xD ,R xD-
 [1G] D{dr-} xD ,D.D xD-
 ```
 
-### Martello (Mart)
+### Martello (M)
 ```
 [S] Z~~ ,DZdrp xD>r,Z~~ xD>r,Z~~ ... xD>rh,D>rh.. xD,Dd,dd,D xDD,DD,DDD0 xD-
            T    C   7~~  T   7~~ ...  C 7  T 7     C 7  T7 T  C  Tc y T   C-
@@ -147,7 +229,7 @@ xd,d,DD,DD xDD,DD,DD,D xD,dr,D-
                               C7 T  q c   C lc yT  C  lc yT  C
 ```
 
-### Estrazione (Estr)
+### Estrazione (Et)
 ```
 xDD,DD xyD,yDDD xD,DDxDD,DD... 
       ... xDD,DDxyD,y  xdd,0d xD-
@@ -158,7 +240,7 @@ xDD,DD xyD,yDDD xD,DDxDD,DD...
                           T-
 ```
 
-### Fenice (Fen)
+### Fenice (Fe)
 ```
 [1] xD.DxDD xdmDxdmD xYxY xdxD xDDxDD xDDxD +[A/R]
 [1] x0D,Ydrp xD,z0dd xDD,D xDD,xDD xD ,D +[S]
@@ -166,7 +248,7 @@ xDD,DD xyD,yDDD xD,DDxDD,DD...
       T  C    C T   C  T C   T  C
 ```
 
-### Sfregatura (Freg)
+### Sfregatura (Fg)
 ```
 xDD,DD xYD>r,YDD xYD>r,YDD xYD>r,YDD xDD,DD xDD,DD ... xYD,Y xD-
 [g]               lT        lT        TT TT  TT TT ...  TT T  T-
@@ -174,36 +256,36 @@ xDD,DD xYD>r,YDD xYD>r,YDD xYD>r,YDD xDD,DD xDD,DD ... xYD,Y xD-
 [G]           T   qC    c   qC    c   Cc Cc  Cc Cc ...  Cc C  C-
 ```
 
-### Gong di uno Martello (G1M)
+### Gong di uno Martello (GM)
 ```
 D~R R R rrd- xb>Uh.. LxR..     ( D~~~~~~~~~~~~~~~~~~...)
         T-    Ccccc..  Tcccc.. (xCccc,TcccxCccc,Tccc...)
 ```
 
-### Nostalgia (Nost)
+### Nostalgia (N)
 ```
 [2] xR xRR xLRxD xLxRxLxR...xLRxLR xRxR..[1]..xDxD xD.DxYxY xD.DxDxD
          T  C  c  C c C c... Cc Cc  C C        C C  C   C C  C.c C C
 ```
 
-### Ploro (Plr)
+### Ploro (Pl)
 ```
 xdb,0D~ xdbp,0D~ xdbp,0D~ xR,L xRL,db xD-
 ```
 
-### Precludio (Pre)
+### Precludio (I)
 ```
 [g] ,ddxD,DxD.D,DDxDDD0,D-
 [G] R{rr-} LxR D~xr>hR LxR- LxR- RR
 ```
 
-### Processione (Proc)
+### Processione (Pr)
 ```
 [G] xB L,R (xB L,R) xL L,R xL,R LxRR,LR xLR,LR... D- rr D-
      C   c ( C   c)  C   c  C c   Cc Tc  C  c ... C     C-
 ```
 
-### Ritorno (Rit)
+### Ritorno (Rt)
 ```
 R{rr-} LxR D~xr>hR LxR- xD-
 ```
@@ -211,42 +293,47 @@ R{rr-} LxR D~xr>hR LxR- xD-
 ### Ritirata del Gong (RG)
 
 ```
-${G-Proc} xLRLR xLRLR xLR xLR xLR xLR... LxR,R,R,D~xR,R,R,R LxR,RxR,RxR,R...xR,rrxR,R
-           C c   C c   Cc  Tc  CT  cT...   C T c    C T c T   C   T   T  ... T    T   T-lT-
+${G-Proc} xLRLR xLRLR xLR xLR xLR xLB xLRLR xLRLR... LxR,R,R,D~xR,R,R,R LxR,RxR,RxR,R...xR,rrxR,R
+           C c   C c   Cc  Cc  Cc  Cc  C T   c T ...   C T c    C T c T   C   T   T  ... T    T   T-lT-
 ```
 
-### Scattato (Scat)
+### Scattato (Sc)
 ```
 [1] xd.d,yD,y0 xdrm,D xdrm,D ... xdrm,DDxDD,DD xD-
 ```
 
-### Seta Ritorta (Tort)
+### Seta Ritorta (T)
 ```
 [L] xd,d,LR0,>b D~xR,L,R,D x,RL,RL,RL.. xR,R,>b, D~xR,L,R,R LxR-
 ```
 
-### Vento Prestissimo (VPP)
+### Vento Prestissimo (Vp)
 ```
 >bhxD xLR- xR xL xRxLxR xRLxR xRLxRLxR  xLRx0LxR xD~xRLxR ...  xD,rr xD-
          T  C  c  C c Cc Cc Cc Cc Cc Cc  Cc Cc Cc Cc Cc Cc...   C c   C-
 ```
 
-### Vocativo (Voc)
+### Vocativo (Vc)
 ```
 [G] ,RL>lp- xdm,D xdM,dMxdM...
         T    q  C  T  T  T ...
 ```
 Usage:
 ```
-${G-Voc} 'Ah!' ${G5}|${G4[p]}
-${G-Voc} 'Ah!' ${G-Voc} 'Ah!' ${G5}|${G3[p]}
-${G-Voc} 'Ah!' ${G4[p]} 'Uh!' ${G3[p]} 'Ah..AHHHH!' ${G-Fret}|${G-Proc}|...
+${G-Vc} ... ${G5}|${G4[p]}
+${G-Vc} ... ${G-Voc} ... ${G5}|${G-Ces}
+${G-Vc} ... ${G4[p]} ... ${G-Cs} ... ${G-Fret}|${G-Proc}|?
+```
+
+### Zampa di Cavallo (Z)
+```
+D~LR0L0R LR0B0R LR0B0R ...
+    0c0T C0Tc0T C0Tc0T ...
 ```
 
 ## Patterns within the Music
 
 ### Fundamental patterns
-
 ```
 D.d yD dd D0      (Z)
 yd DD D0yD y0D-   (D)
@@ -255,4 +342,60 @@ yDD0 DD DDyD y0D- (D)
 yDy0 DD DDyD y0D- (D)
 Z DD dd D0 (Z)
 D0yD y0D- dd D0 (Z)
+```
+
+## Examples of the High-level Percussion Sheets
+
+### 昆曲《连环计·小宴》吕布上场
+```
+GmPr4D~GmPtRt :2<g>.D~1:
+```
+> Notes: Since there is no percussion pattern that contains two capitalized strokes, we can easily split the pattern `GmPr4D~GmPtRt` into the Chinese names: 回头-圆场-四击头-撕边-回头-长尖-归位. Two `:` and one `.` denote lead-in sentences “柳营夜寂悬边柝，正朝廷、无事之秋”, and the percussion patterns `2<g>`（二锣<小锣>）and `D~1`（撕边一锣）clearly locate at the punctuations.
+
+### 起霸程式
+```
+4GmPtGmPtD~14 FrD~14 FrD~14 FrD~1D~14 PrFrCs
+```
+
+### 《洪羊洞》末折
+
+> `(6)`杨延昭  `(8)`赵德芳 `(F)`佘太君 `(f)`柴夫人
+
+```
+Rg(6)~Ab[L]xxxCxTxxxx:*3Fg<c>E<g>Ab[M]:E[R(8)]:E::E:          # “叹杨家投宋主心血用尽”
+I[S(6)]:1:1:1:1.Pl:1Co<x>F[S]:1::F[S(8)]:1:1:1:F[S(6)]:1:Cs   # “适才间在郊外闲游散闷”
+...1(8)~Vc<g>(6)~xZdD[LA]:*12[M(8)]:*4 M<S>[S(F)]:1(f):       # “自那日朝罢归身染重病”
+I[S(6)]:1:1..D~:DRR1 CoF.D~:1:....qC:Tt:1:1.Pl:TtCoF:1::      # "@8"
+Tt.Pl:1 Co 0D~qTC0D~qTC DRC D~ F:F::                          # “霎时间腹内痛心血上涌”
+F:CoF:1.Pl:1 Co 0D~qTC0D~qTC DRC D~ F1..,D~:1 Fin.            # “这一旁站的是猛将岳胜”
+```
+
+### 《穆桂英挂帅》“一家人闻边报”
+
+
+```
+Tt[S]:1:1:1 9OcACcAZAOcACcZAOc ~F[S]..1:1    # “一家人闻边报”
+Vp N[A]:*7.DD:                               # “猛听得金鼓响”
+Tt[S]:1:F:Vp F[S].1.:14Vp                    # “我不挂帅谁挂帅”
+```
+
+Details of connecting the patterns:
+
+`OcA`:
+
+```
+.... r r (cresc.)b  D.lRL 0RRR LRLR...
+qTTT qTTT qTTT qTTT C.0lC 0c0T CcCc...
+```
+
+`ACcA`:
+```
+   D~LR 0b<hRL RLRL RLRR LRLR ...
+.. CcCc Cc0 T  qC0c qC0c CcCc ...
+```
+
+`ACcZ`:
+```
+   .... R0B  b<hLRL RLRL RLRR L R  D.lRL 0D0R LR0D0R ...
+.. CcCc CcC- C- cc  qC0c qC0c C-c- C.0lC 0c0T C0Tc0T ...
 ```
